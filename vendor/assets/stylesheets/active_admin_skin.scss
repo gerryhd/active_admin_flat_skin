@@ -452,6 +452,9 @@ html {
         &.flash_notice {
           background: $skinActiveColor;
         }
+        &.flash_success {
+          background: #A3FF60;
+        }
         &.flash_error {
           background: #FF6C60;   /* background same to delete button in this theme */
         }
