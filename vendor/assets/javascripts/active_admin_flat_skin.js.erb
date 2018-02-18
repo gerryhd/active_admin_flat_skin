@@ -9,13 +9,7 @@ jQuery(document).ready(function($) {
   $('.view_link'  ).html($('<i>').addClass('fa fa-eye'));
 
   if ($("#filters_sidebar_section").length > 0) {
-    $("#main_content").prepend(
-      $('<div class="bloc">').append(
-        $('<a>').text('<%= I18n.t 'active_admin.filters.buttons.filter' %>').attr({
-          href: '#value', id:'diplay-filter'
-        })
-      )
-    );
+    
   }else{
     $("#main_content").addClass('with_side');
   };
