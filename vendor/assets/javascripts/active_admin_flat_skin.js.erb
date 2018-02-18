@@ -9,7 +9,10 @@ jQuery(document).ready(function($) {
   $('.view_link'  ).html($('<i>').addClass('fa fa-eye'));
 
   if ($("#filters_sidebar_section").length > 0) {
-    
+    let $tools = $('div.table_tools')
+    $tools.append('<input id="q" placeholder="Buscar..."></input>');
+    $tools.append('<button>Search</button>');
+
   }else{
     $("#main_content").addClass('with_side');
   };
