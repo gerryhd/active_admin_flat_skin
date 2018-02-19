@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
 
   if ($("#filters_sidebar_section").length > 0) {
     let $tools = $('div.table_tools')
-    $tools.append('<form method="get"><input id="q" placeholder="Buscar..."></input><input type="submit">Search</input></form>');
+    $tools.append('<form method="get"><input id="q" placeholder="Buscar..."><input type="submit" value="Buscar"></form>');
 
   }else{
     $("#main_content").addClass('with_side');
